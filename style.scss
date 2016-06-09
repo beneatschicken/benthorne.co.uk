@@ -1,5 +1,5 @@
 /* --------------------
-	Main Styles
+	Navigation
 -------------------- */
 
 .main-header,
@@ -46,7 +46,7 @@
 }
 
 /* --------------------
-	Media Queries
+	Navigation Media Queries
 -------------------- */
 
 @media (min-width: 769px) {
@@ -65,6 +65,13 @@
 	.nav a {
 		border-bottom-color: transparent;
 	}
+	.contactMe {
+		background-color: #14C18F;
+	}
+	.contactMe a {
+		color: #fff;
+		box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+	}
 }
 
 @media (min-width: 1025px) {
@@ -79,13 +86,30 @@
 		align-self: center;
 	}
 	.nav li {
-		margin-left: .65em;
-		margin-right: .65em;
+		margin-left: 3em;
+		margin-right: 3em;
 	}
 }
 
+/* --------------------
+	Hero Media Queries
+-------------------- */
 
+@media (min-width: 769px) {
+	.hero {
+		background-repeat: no-repeat;
+		display: block;
+		height: 600px;
+		background-image: url('/img/hero-small.jpg');
+		background-position: bottom center;
+	}
 
+}
 
+@media (min-width: 1025px) {
+	.hero {
+		background-image: url('/img/hero-large.jpg');
+	}
+}
 
 
