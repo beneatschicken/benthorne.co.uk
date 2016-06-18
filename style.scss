@@ -18,7 +18,7 @@
 }
 
 .site-logo img {
-	width: 100px;
+	width: 150px;
 }
 
 .nav {
@@ -29,7 +29,7 @@
 	text-decoration: none;
 	display: block;
 	color: #797e83;
-	font-size: 1.125em;
+	font-size: 1.25em;
 	font-weight: 300;
 	text-align: center;
 	padding: .4em;
@@ -134,9 +134,14 @@
 }
 
 .box {
-	background: #f9f6f3;
+	background: #fff;
 	margin-top: 1.4em;
 	padding: 1.4em;
+}
+
+p.links a {
+	border-bottom: 1px dotted #0f0cb3;
+	color: #14C18F;
 }
 
 /* --------------------
@@ -149,5 +154,11 @@
 	}
 	.box {
 		width: 32%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	p.links {
+		justify-content: flex-end;
 	}
 }
