@@ -51,14 +51,16 @@
 
 @media (min-width: 769px) {
 	.main-header {
-		height: 200px;
+		height: 150px;
 		justify-content: flex-end;
+		padding-top: 10px;
+		margin-bottom: 25px;
 	}
 	.site-logo img {
 		width: 140px;
 	}
 	.nav {
-		margin-top: 3em;
+		margin-top: 2em;
 		flex-direction: row;
 		justify-content: space-between;
 	}
@@ -77,6 +79,7 @@
 @media (min-width: 1025px) {
 	.main-header {
 		flex-direction: row;
+		margin-bottom: 10px;
 	}
 	.site-logo {
 		margin-right: auto;
@@ -112,4 +115,39 @@
 	}
 }
 
+/* --------------------
+	Services
+-------------------- */
 
+.inner {
+	clear: both;
+	text-align: center;
+	margin: auto;
+	min-width: 240px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.boxes {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.box {
+	background: #f9f6f3;
+	margin-top: 1.4em;
+	padding: 1.4em;
+}
+
+/* --------------------
+	Services Media Queries
+-------------------- */
+
+@media (min-width: 769px) {
+	.boxes {
+		display: flex;
+	}
+	.box {
+		width: 32%;
+	}
+}
