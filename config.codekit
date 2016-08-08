@@ -60,6 +60,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/hairByNatalie.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09454e+06,
+		"inputAbbreviatedPath": "\/img\/hairByNatalie.png",
+		"outputAbbreviatedPath": "\/img\/hairByNatalie.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero-large.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
